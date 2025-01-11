@@ -1,0 +1,9 @@
+x = input().strip()
+n = int(input().strip())
+
+if n > len(x):
+    print('FEWER')
+elif len(x) > n:
+    print('MORE')
+else:
+    print('MATCH')
