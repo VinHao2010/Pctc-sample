@@ -1,0 +1,4 @@
+l = input().split()
+l.sort()
+
+print(ord(l[-1]) - ord(l[0]))
