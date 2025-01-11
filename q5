@@ -1,0 +1,12 @@
+n = [int(i) for i in input().split()]
+ans = 0
+
+for i in range(len(n)):
+    if n[i] == 13:
+        continue
+    elif i>0 and n[i-1] == 13:
+        continue
+    else:
+        ans += n[i]
+
+print(ans)
