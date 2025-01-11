@@ -1,0 +1,14 @@
+x = input().strip()
+n = int(input().strip())
+new = ''.join((list(x)).reverse())
+
+print(x * new)
+
+OR--------------------------
+
+x = input().strip()
+n = int(input().strip())
+new = x[::-1]
+
+print(x * new)
+
